@@ -1,3 +1,5 @@
+import { Clouds, Coord, Main, Weather, Wind } from "../common.dto";
+
 export interface OpenWeatherDto {
     coord: Coord;
     weather: Weather[];
@@ -20,30 +22,6 @@ interface Sys {
     sunrise: number;
     sunset: number;
 }
-interface Clouds {
-    all: number;
-}
-interface Wind {
-    speed: number;
-    deg: number;
-}
-interface Main {
-    temp: number;
-    feels_like: number;
-    temp_min: number;
-    temp_max: number;
-    pressure: number;
-    humidity: number;
-    sea_level: number;
-    grnd_level: number;
-}
-interface Weather {
-    id: number;
-    main: string;
-    description: string;
-    icon: string;
-}
-interface Coord {
-    lon: number;
-    lat: number;
-}
+
+
+

@@ -1,0 +1,34 @@
+.app {
+  background: rgb(159, 218, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(159, 218, 226, 1) 0%,
+    rgba(132, 207, 254, 1) 70%
+  );
+}
+.radio-btns-container {
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn-container {
+  padding-inline-end: 1rem;
+}
+.radio {
+  cursor: pointer;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+label {
+  padding-inline-start: 0.5rem;
+}
+
+input[type="radio"]:checked + .checkmark + label {
+  text-decoration: underline;
+  font-weight: 600;
+}

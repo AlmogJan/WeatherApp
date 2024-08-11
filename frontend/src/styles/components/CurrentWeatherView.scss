@@ -1,0 +1,49 @@
+.curr-weather-container {
+  padding-inline: 3rem;
+  @include for-mobile-layout {
+    flex-direction: column-reverse;
+  }
+}
+.desc-container {
+  padding: 0;
+}
+.info-line {
+  font-size: 1.25rem;
+  margin-block-end: 0.5rem;
+}
+.info-box-container {
+  display: flex;
+  margin-block: 1rem;
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+  margin-inline-end: 2rem;
+  .parameter {
+    font-size: 1rem;
+    padding-block-end: 0.25rem;
+  }
+  .parameter-name {
+    font-size: 1.5rem;
+    padding-block-end: 0.25rem;
+    font-weight: 500;
+  }
+  .measure {
+    font-size: 0.55rem;
+  }
+}
+.weather-icon {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.curr-temp {
+  font-size: 6rem;
+}
+.primary-text {
+  font-size: 4.5rem;
+}
+
+.secondary-text {
+  font-size: 2rem;
+  font-weight: 500;
+}
