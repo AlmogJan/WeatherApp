@@ -31,9 +31,10 @@ export function CurrentWeatherView({ currentWeather }: CurrentWeatherProps) {
                         <span className="parameter-name">Pressure</span>
                     </div>
                 </div>
-                <div className="info-line-container">
-                    <p className="info-line">Humidity: {currentWeather.humidity}%</p>
-                    <p className="info-line">Visibility: {currentWeather.visibility / 1000} Km</p>
+                <div className="info-line-container flex">
+                    <p className="info-line"><span className="parameter-name-line">Humidity: </span>{currentWeather.humidity}%</p>
+                    <span className="seperator-element">●</span>
+                    <p className="info-line"><span className="parameter-name-line">Visibility:</span> {currentWeather.visibility / 1000} Km</p>
                 </div>
 
             </div>

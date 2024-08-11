@@ -11,6 +11,10 @@
   font-size: 1.25rem;
   margin-block-end: 0.5rem;
 }
+
+.seperator-element {
+  padding-inline: 1rem;
+}
 .info-box-container {
   display: flex;
   margin-block: 1rem;
@@ -45,5 +49,10 @@
 
 .secondary-text {
   font-size: 2rem;
+  font-weight: 500;
+}
+
+.parameter-name-line {
+  font-size: 1.25rem;
   font-weight: 500;
 }
