@@ -43,7 +43,7 @@ export function App() {
           onChange={() => setSelectedComponent('weather')}
         />
         <span className="checkmark">
-          <img src="./public/weather.svg" alt="" />
+          <img src="https://res.cloudinary.com/do4agaebw/image/upload/v1723381431/weather_xyys4k.svg" alt="" />
         </span>
         <label htmlFor="weather">Weather</label>
       </div>
@@ -58,7 +58,7 @@ export function App() {
           onChange={() => setSelectedComponent('forecast')}
         />
         <span className="checkmark">
-          <img src="./public/forecast.svg" alt="" />
+          <img src="https://res.cloudinary.com/do4agaebw/image/upload/v1723381431/forecast_vnma7d.svg" alt="" />
         </span>
         <label htmlFor="forecast">Forecast</label>
       </div>

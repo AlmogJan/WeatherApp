@@ -4,7 +4,7 @@ type SearchBarProps = {
 }
 export function SearchBar({ setSearchCity, searchCity }: SearchBarProps) {
     return <div className="search-bar flex">
-        <img src="./public/search.svg"></img>
+        <img src="https://res.cloudinary.com/do4agaebw/image/upload/v1723381431/search_cjf0lr.svg"></img>
         <input className="search-input" type="text" value={searchCity} onChange={(ev) => {
             const value = (ev.target as HTMLInputElement).value;
             setSearchCity(value)
