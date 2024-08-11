@@ -43,7 +43,7 @@ export function App() {
           onChange={() => setSelectedComponent('weather')}
         />
         <span className="checkmark">
-          <img src="./src/assets/weather.svg" alt="" />
+          <img src="./public/weather.svg" alt="" />
         </span>
         <label htmlFor="weather">Weather</label>
       </div>
@@ -58,7 +58,7 @@ export function App() {
           onChange={() => setSelectedComponent('forecast')}
         />
         <span className="checkmark">
-          <img src="./src/assets/forecast.svg" alt="" />
+          <img src="./public/forecast.svg" alt="" />
         </span>
         <label htmlFor="forecast">Forecast</label>
       </div>
